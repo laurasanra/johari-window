@@ -1,0 +1,51 @@
+.dropdown-container {
+  margin-top: 2rem;
+  position: relative;
+  padding: 0 1rem;
+  background-color: white;
+}
+
+.dropdown-header {
+  margin: 2rem 0 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.exclusive-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: red;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 12px;
+  padding: 0.2rem 1rem;
+}
+
+.dropdown-title {
+  display: inline;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: lightcoral;
+  margin: 0 0.8rem;
+  @media only screen and (min-width: "425px") {
+    margin: 0 1.5rem;
+  }
+}
+
+.icon-open {
+  transform: rotate(180deg);
+}
+
+.icon,
+.small-icon,
+.icon-open {
+  transition: transform 300ms linear;
+}
+
+.optional-text {
+  font-size: 15px;
+  color: black;
+}
